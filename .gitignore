@@ -1,0 +1,16 @@
+# 避免如 API key 等重要資訊外洩
+.env
+
+# 暫存與虛擬環境檔案不需要進版控
+__pycache__/
+*.pyc
+
+# GitHub 儲存的是專案內容，不是整台電腦環境
+.venv/
+venv/
+
+# Chainlit 自動產生的設定檔
+.chainlit/
+chainlit.md
+
+.DS_Store    # Mac 作業系統中的隱藏資料夾管理文件
